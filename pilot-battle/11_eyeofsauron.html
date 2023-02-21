@@ -1,0 +1,84 @@
+<div class="left">
+  <div class="y lo"><div class="b li"></div></div>
+</div>
+<div class="mid">
+  <div class="y mo">
+    <div class="b mi">
+      <div class="c"></div>
+    </div>
+  </div>
+</div>
+<div class="right">
+  <div class="y ro"><div class="b ri"></div></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191210;
+  }
+  .y {
+    background: #eca03d;
+  }
+  .mi {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  .mo {
+    width: 140px;
+    height: 140px;
+  }
+  .b {
+    background: #191210;
+  }
+  .c {
+    background: #84271c;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  div {
+    border-radius: 100%;
+  }
+  .ro,
+  .ri {
+    border-radius: 150px 150px 0 0;
+  }
+  .lo,
+  .li {
+    border-radius: 0 0 150px 150px;
+  }
+  .lo,
+  .ro {
+    width: 100px;
+    height: 50px;
+  }
+  .ri,
+  .li {
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  .ri {
+    position: fixed;
+    margin-top: 20px;
+  }
+  .mid {
+    position: fixed;
+  }
+  .left {
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+  .right {
+    margin-bottom: 50px;
+  }
+</style>

@@ -1,0 +1,30 @@
+<div class="tl"></div>
+<div class="tr"></div>
+<div class="bl"></div>
+<style>
+  body {
+    background: #e3516e;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+    align-content: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+  }
+  .tl {
+    background: #51b5a9;
+    border-radius: 100% 0 0 0;
+  }
+  .tr {
+    background: #fade8b;
+    border-radius: 0 100% 0 0;
+  }
+  .bl {
+    background: #f7f3d7;
+    border-radius: 0 0 0 100%;
+  }
+</style>
